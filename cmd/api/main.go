@@ -14,8 +14,8 @@
 package main
 
 import (
-	"github.com/superhero-match-delete/cmd/api/controller"
-	"github.com/superhero-match-delete/internal/config"
+	"github.com/superhero-match/superhero-match-delete/cmd/api/controller"
+	"github.com/superhero-match/superhero-match-delete/internal/config"
 )
 
 func main() {

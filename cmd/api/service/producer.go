@@ -14,8 +14,8 @@
 package service
 
 import (
-	"github.com/superhero-match-delete/cmd/api/model"
-	producer "github.com/superhero-match-delete/internal/producer/model"
+	"github.com/superhero-match/superhero-match-delete/cmd/api/model"
+	producer "github.com/superhero-match/superhero-match-delete/internal/producer/model"
 )
 
 // StoreMatch publishes new match on Kafka topic for it to be

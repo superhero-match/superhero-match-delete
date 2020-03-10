@@ -14,8 +14,8 @@
 package service
 
 import (
-	"github.com/superhero-match-delete/internal/config"
-	"github.com/superhero-match-delete/internal/producer"
+	"github.com/superhero-match/superhero-match-delete/internal/config"
+	"github.com/superhero-match/superhero-match-delete/internal/producer"
 	"go.uber.org/zap"
 )
 

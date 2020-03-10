@@ -16,8 +16,8 @@ package controller
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/superhero-match-delete/cmd/api/service"
-	"github.com/superhero-match-delete/internal/config"
+	"github.com/superhero-match/superhero-match-delete/cmd/api/service"
+	"github.com/superhero-match/superhero-match-delete/internal/config"
 )
 
 // Controller holds the Controller data.
