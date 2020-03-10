@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	ctrl "github.com/superhero-match-delete/cmd/api/model"
+	ctrl "github.com/superhero-match/superhero-match-delete/cmd/api/model"
 	"go.uber.org/zap"
 )
 

@@ -20,7 +20,7 @@ import (
 
 	"github.com/segmentio/kafka-go"
 
-	"github.com/superhero-match-delete/internal/producer/model"
+	"github.com/superhero-match/superhero-match-delete/internal/producer/model"
 )
 
 // DeleteMatch publishes match id on Kafka topic for it to be
