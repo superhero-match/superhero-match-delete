@@ -22,6 +22,7 @@ import (
 // consumed by consumer and stored in DB.
 func (s *Service) DeleteMatch(m model.Match) error {
 	return s.Producer.DeleteMatch(producer.Match{
-		ID: m.ID,
+		SuperheroID:        m.SuperheroID,
+		MatchedSuperheroID: m.MatchedSuperheroID,
 	})
 }
