@@ -38,7 +38,8 @@ func (ctl *Controller) Delete(c *gin.Context) {
 	}
 
 	err = ctl.Service.DeleteMatch(ctrl.Match{
-		ID:                 req.ID,
+		SuperheroID:        req.SuperheroID,
+		MatchedSuperheroID: req.MatchedSuperheroID,
 	})
 	if checkError(err, c) {
 		ctl.Service.Logger.Error(
