@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a5d25651-3464-426a-9944-a50b799e1041" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/api/controller/delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/controller/delete.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/api/model/match.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/model/match.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/api/model/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/model/request.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/api/service/producer.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/service/producer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/config/producer.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/config/producer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/producer/model/match.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/producer/model/match.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/config/config.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +29,9 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1VZdYgKa6KRsHNygkFb60SLGYes" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -57,7 +57,7 @@
       <recent name="C:\Users\ACER\go\src\github.com\superhero-match-delete\internal\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/superhero-match/superhero-match-delete/cmd/api">
+  <component name="RunManager" selected="Go Build.go build github.com/superhero-match/superhero-match-delete/cmd/health">
     <configuration name="go build github.com/superhero-match-delete/cmd/api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="superhero-match-delete" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -76,8 +76,18 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/superhero-match/superhero-match-delete/cmd/health" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="superhero-match-delete" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/cmd/health/main.go" />
+      <package value="github.com/superhero-match/superhero-match-delete/cmd/health" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/superhero-match/superhero-match-delete/cmd/health" />
         <item itemvalue="Go Build.go build github.com/superhero-match/superhero-match-delete/cmd/api" />
         <item itemvalue="Go Build.go build github.com/superhero-match-delete/cmd/api" />
       </list>
@@ -95,21 +105,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583856608324" />
-    <state width="1323" height="332" key="GridCell.Tab.0.bottom" timestamp="1585402715660">
+    <state width="1323" height="332" key="GridCell.Tab.0.bottom" timestamp="1586424242906">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="332" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585402715660" />
-    <state width="1323" height="332" key="GridCell.Tab.0.center" timestamp="1585402715656">
+    <state width="1323" height="332" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586424242906" />
+    <state width="1323" height="332" key="GridCell.Tab.0.center" timestamp="1586424242905">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="332" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585402715656" />
-    <state width="1323" height="332" key="GridCell.Tab.0.left" timestamp="1585402715652">
+    <state width="1323" height="332" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586424242905" />
+    <state width="1323" height="332" key="GridCell.Tab.0.left" timestamp="1586424242905">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="332" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585402715652" />
-    <state width="1323" height="332" key="GridCell.Tab.0.right" timestamp="1585402715659">
+    <state width="1323" height="332" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586424242905" />
+    <state width="1323" height="332" key="GridCell.Tab.0.right" timestamp="1586424242906">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="332" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585402715659" />
+    <state width="1323" height="332" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586424242905" />
   </component>
 </project>
