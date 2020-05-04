@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a5d25651-3464-426a-9944-a50b799e1041" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
       <recent name="C:\Users\ACER\go\src\github.com\superhero-match-delete\internal\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/superhero-match/superhero-match-delete/cmd/health">
+  <component name="RunManager" selected="Go Build.go build github.com/superhero-match/superhero-match-delete/cmd/api">
     <configuration name="go build github.com/superhero-match-delete/cmd/api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="superhero-match-delete" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -87,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/superhero-match/superhero-match-delete/cmd/health" />
         <item itemvalue="Go Build.go build github.com/superhero-match/superhero-match-delete/cmd/api" />
+        <item itemvalue="Go Build.go build github.com/superhero-match/superhero-match-delete/cmd/health" />
         <item itemvalue="Go Build.go build github.com/superhero-match-delete/cmd/api" />
       </list>
     </recent_temporary>
@@ -101,25 +97,29 @@
     <proxy>direct</proxy>
   </component>
   <component name="WindowStateProjectService">
+    <state x="397" y="0" key="#go_build_github.com/superhero-match/superhero-match-delete/cmd/api" timestamp="1587106686629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="397" y="0" key="#go_build_github.com/superhero-match/superhero-match-delete/cmd/api/0.0.1366.728@0.0.1366.728" timestamp="1587106686629" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583856608324">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583856608324" />
-    <state width="1323" height="332" key="GridCell.Tab.0.bottom" timestamp="1586424242906">
+    <state width="1323" height="332" key="GridCell.Tab.0.bottom" timestamp="1587820762051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="332" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586424242906" />
-    <state width="1323" height="332" key="GridCell.Tab.0.center" timestamp="1586424242905">
+    <state width="1323" height="332" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587820762051" />
+    <state width="1323" height="332" key="GridCell.Tab.0.center" timestamp="1587820762050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="332" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586424242905" />
-    <state width="1323" height="332" key="GridCell.Tab.0.left" timestamp="1586424242905">
+    <state width="1323" height="332" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587820762050" />
+    <state width="1323" height="332" key="GridCell.Tab.0.left" timestamp="1587820762049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="332" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586424242905" />
-    <state width="1323" height="332" key="GridCell.Tab.0.right" timestamp="1586424242906">
+    <state width="1323" height="332" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587820762049" />
+    <state width="1323" height="332" key="GridCell.Tab.0.right" timestamp="1587820762050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="332" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586424242905" />
+    <state width="1323" height="332" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587820762050" />
   </component>
 </project>
