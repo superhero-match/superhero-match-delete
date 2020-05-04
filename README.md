@@ -2,7 +2,7 @@
 Superhero Match is an open source dating app.
 
 ## superhero-match-delete
-This micro-service is responsible for deleting a match functionality. 
+This micro-service is responsible for deleting match functionality. 
 
 ## Becoming Contributor
 If you want to become contributor, please send email to this address - `superheromatch@gmail.com`.
