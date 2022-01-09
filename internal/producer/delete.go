@@ -1,5 +1,5 @@
 /*
-  Copyright (C) 2019 - 2021 MWSOFT
+  Copyright (C) 2019 - 2022 MWSOFT
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License, or
@@ -25,7 +25,7 @@ import (
 
 // DeleteMatch publishes match id on Kafka topic for it to be
 // consumed by consumer and mark as deleted in DB.
-func (p *Producer) DeleteMatch(m model.Match) error {
+func (p *producer) DeleteMatch(m model.Match) error {
 	var sb bytes.Buffer
 
 	err := json.NewEncoder(&sb).Encode(m)
